@@ -1,0 +1,107 @@
+/* Style moderne et carré pour la table des patients */
+.admin-page {
+  background: #eafff6;
+  border-radius: 16px;
+  padding: 32px 24px;
+  margin: 32px auto;
+  max-width: 950px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.07);
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 14px;
+  font-size: 1.12rem;
+  margin-top: 18px;
+}
+.admin-table th, .admin-table td {
+  padding: 12px 16px;
+  background: #fff;
+  border-radius: 8px;
+  text-align: left;
+}
+.admin-table th {
+  background: #d3f6ee;
+  font-weight: 700;
+  color: #1c3b3b;
+}
+.admin-table td {
+  color: #1c3b3b;
+  font-weight: 500;
+}
+.admin-table tr {
+  box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+}
+
+.admin-table td:last-child, .admin-table th:last-child {
+  text-align: center;
+}
+
+.action-btn {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 4px 6px;
+  cursor: pointer;
+  transition: background 0.18s, color 0.18s, box-shadow 0.18s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+.action-btn.edit {
+  background: #fffbe6;
+  color: #ff9800;
+  border: 1.5px solid #ff9800;
+}
+.action-btn.edit:hover {
+  background: #ffecb3;
+}
+.action-btn.delete {
+  background: #fff0f0;
+  color: #e53935;
+  border: 1.5px solid #e53935;
+}
+.action-btn.delete:hover {
+  background: #ffcdd2;
+}
+
+.admin-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px 0;
+  margin: 0 auto 32px auto;
+  max-width: 420px;
+  background: #f8fffd;
+  padding: 28px 32px 22px 32px;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+}
+.admin-form label {
+  min-width: 70px;
+  font-weight: 600;
+  color: #1c3b3b;
+}
+.admin-form input, .admin-form select {
+  padding: 7px 12px;
+  border-radius: 6px;
+  border: 1.2px solid #b2dfdb;
+  background: #f8fffd;
+  font-size: 1rem;
+}
+.admin-form button {
+  background: #00bcd4;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  padding: 10px 24px;
+  font-size: 1.06rem;
+  cursor: pointer;
+  transition: background 0.18s;
+}
+.admin-form button:hover {
+  background: #008fa3;
+}
